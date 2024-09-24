@@ -1,0 +1,71 @@
+body {
+    background-image: url("../recursos/imagenes/B5.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-areas: 'content1 content2 content2 content3'
+                         'content1 content4 content4 content3';
+    grid-template-columns: 300px auto 300px auto;
+    grid-template-rows: 200px 200px;
+    margin: 20px
+}
+
+.content1 {
+    grid-area: content1;
+    border: 1 solid black;
+    background-color: #643e7e;
+    color: #fdfbfe;
+    text-align: left;
+}
+
+.content2 {
+    grid-area: content2;
+    border: 1 solid black;
+    background-color: #313131;
+    text-align: left;
+    color: #fdfbfe;
+    
+}
+
+.content3 {
+    grid-area: content3;
+    border: 1 solid black;
+}
+
+.content4 {
+    grid-area: content4;
+    border: 1 solid black;
+    background-color: #fdfbfe;
+}
+
+div > h2, p {
+    margin: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    gap: 5px;
+    margin: 20px;
+}
+
+.flexContainerTittle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #877d62;
+}
+
+.flexContainer2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #877d62;
+}
+
+
+
+
